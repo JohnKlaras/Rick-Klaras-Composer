@@ -7,14 +7,3 @@ $('#video1, #video2, #video3').hover(function toggleControls() {
         this.setAttribute("controls", "controls")
     }
 })
-
-// var video = document.getElementsByClassName("myvideo");
-//
-// $(video).on({
-//     mouseenter: function () {
-//       video.setAttribute("controls","controls")
-//     },
-//     mouseleave: function () {
-//       video.removeAttribute("controls");
-//     }
-// });
