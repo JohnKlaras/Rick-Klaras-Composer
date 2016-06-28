@@ -1,11 +1,54 @@
-.title-tag{
+
+
+p {
+  color: black;
+  font-family: 'Alegreya', serif;
+  font-size: 1.3em;
+}
+
+
+.title-tag {
+  background-color: black;
+  color: white;
+}
+
+.title-tag h1{
+  font-family: 'Righteous';
+  font-size: 50px;
   background-color: black;
   color: white;
   height: auto;
 }
 
-#big_play_button {
-  border-radius: 100%;
-  left: 2%;
-  top: 18.85%;
+.title-tag p{
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-size: 1em;
+}
+
+.description {
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.music-box {
+  background-color: black;
+}
+
+/*Matching Height Columns*/
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+/*/Matching Height Columns*/
+
+.soundsTotal {
+  display: none;
 }
