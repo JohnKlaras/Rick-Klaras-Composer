@@ -1,15 +1,54 @@
-
+body {
+  background-color: black;
+}
 
 p {
   color: black;
-  font-family: 'Alegreya', serif;
+  font-family: 'Nixie One', cursive;
   font-size: 1.3em;
 }
 
+.jumbotron h1 {
+  font-family: 'Righteous', cursive;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: white;
+    background-image: url(../assets/img/unfinished-rick-web.jpg);
+    background-position: 0% 83%;
+    background-size: 80em;
+    background-repeat: no-repeat;
+    color: black;
+    min-height: 22rem;
+    padding-top: 15rem;
+}
+
+.jumbotron .nav-link{
+  font-family: 'Nixie One', cursive;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+}
+
+.navbar .nav-link {
+  font-family: 'Nixie One', cursive;
+  font-size: 1.5rem;
+}
 
 .title-tag {
   background-color: black;
   color: white;
+  border-radius: 10px;
 }
 
 .title-tag h1{
@@ -20,19 +59,20 @@ p {
   height: auto;
 }
 
-.title-tag p{
+.title-tag p {
   color: white;
-  font-family: 'Alegreya', serif;
-  font-size: 1em;
+  font-family: 'Nixie One', cursive;
+  font-size: 1.2em;
 }
 
 .description {
-  border: 5px solid black;
-  border-radius: 5px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 
 .music-box {
-  background-color: black;
+  background-color: white;
 }
 
 /*Matching Height Columns*/
