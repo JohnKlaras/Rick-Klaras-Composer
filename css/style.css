@@ -1,68 +1,40 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
-p {
-  color: black;
-  font-family: 'Nixie One', cursive;
-  font-size: 1.3em;
-}
 
-.jumbotron h1 {
-  font-family: 'Righteous', cursive;
-}
 
 .jumbotron {
-    margin-bottom: 0px;
+    margin-bottom: -21px;
     background-color: white;
     background-image: url(../assets/img/unfinished-rick-web.jpg);
-    background-position: 0% 83%;
-    background-size: 80em;
+    background-position: 51% 83%;
+    background-size: 21em;
     background-repeat: no-repeat;
     color: black;
     min-height: 22rem;
-    padding-top: 15rem;
 }
 
-.jumbotron .nav-link{
-  font-family: 'Nixie One', cursive;
-  font-size: 1.5rem;
-  padding-top: .5rem;
-  color: black;
+.header-img{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar {
-  background-color: black;
+  background-color: rgba(255,255,255,0.95);
+  padding: 0;
 }
 
-.navbar-brand {
-  font-family: 'Righteous', cursive;
-  font-size: 2rem;
+.active {
+  text-shadow: 1px 1px 1px #3aeae4,-1px -1px 1px #bc20ff;
 }
 
-.navbar .nav-link {
-  font-family: 'Nixie One', cursive;
-  font-size: 1.5rem;
-}
 
 .title-tag {
   background-color: black;
   color: white;
   border-radius: 10px;
-}
-
-.title-tag h1{
-  font-family: 'Righteous';
-  font-size: 50px;
-  background-color: black;
-  color: white;
-  height: auto;
-}
-
-.title-tag p {
-  color: white;
-  font-family: 'Nixie One', cursive;
-  font-size: 1.2em;
 }
 
 .description {
@@ -71,9 +43,6 @@ p {
   border-radius: 10px;
 }
 
-.music-box {
-  background-color: white;
-}
 
 /*Matching Height Columns*/
 .row {
@@ -91,4 +60,46 @@ p {
 
 .soundsTotal {
   display: none;
+}
+
+/*TYPOGRAPHY*/
+
+.jumbotron h1, .navbar-brand, .title-tag, h1, h2, h3, h4 {
+  font-family: 'Abril Fatface', cursive;
+  word-spacing: 0.146em;
+  letter-spacing: -0.012em;
+}
+
+p, .navbar .nav-link, .title-tag p{
+  font-family: 'Federo', sans-serif;
+  color: black;
+}
+
+/*Copy and Nav*/
+
+p {
+  font-size: 1.3em;
+}
+
+.navbar-nav .nav-link{
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
+}
+
+.title-tag p {
+  color: white;
+  font-size: 1.2em;
+}
+
+/*HEADINGS*/
+
+.navbar-brand {
+  font-size: 2.8rem;
+}
+
+.title-tag h1{
+  font-size: 2.5rem;
+  background-color: black;
+  color: white;
+  height: auto;
 }
